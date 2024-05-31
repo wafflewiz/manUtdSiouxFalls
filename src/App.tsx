@@ -1,8 +1,6 @@
 import './App.css'
 import logo from './assets/images/logo.png';
 import fbLogo from  './assets/images/fbLogo.png';
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
-
 import {
   Table,
   TableBody,
