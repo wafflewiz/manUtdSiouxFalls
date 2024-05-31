@@ -1,5 +1,5 @@
 import './App.css'
-import logo from './assets/images/logo.png'; // Adjust the path based on your actual structure
+import logo from './assets/images/logo.png'; 
 import {
   Table,
   TableBody,
@@ -15,7 +15,7 @@ function App() {
 
   return (
     
-    <div className="bg-red-500 text-white min-h-screen p-4">
+    <div className="bg-red-500 text-white min-h-screen p-2 md:p-4 lg:p-8">
       <title>
         MUFC Sioux Falls
       </title>
