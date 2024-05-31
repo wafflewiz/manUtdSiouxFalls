@@ -15,7 +15,7 @@ function App() {
 
   return (
     
-    <div className="bg-red-500 text-white min-h-screen p-2 md:p-4 lg:p-8">
+    <div className="bg-red-500 text-white min-h-screen p-2 md:p-4 lg:p-8 min-w-fullw-full">
       <title>
         MUFC Sioux Falls
       </title>
