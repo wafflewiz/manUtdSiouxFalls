@@ -1,5 +1,7 @@
 import './App.css'
 import logo from './assets/images/logo.png'; 
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
+
 import {
   Table,
   TableBody,
@@ -20,7 +22,7 @@ function App() {
         MUFC Sioux Falls
       </title>
     <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl text-yellow-500">
-      Welcome to the Sioux Falls Manchester United Suppoerters Page!
+      Welcome to the Sioux Falls Red Army Page!
     </h1>
     <div className="flex justify-center my-6">
         <img src={logo} alt="Manchester United Logo" className=" h-16" />
@@ -35,7 +37,7 @@ function App() {
       Match Table
     </h3>
     <Table>
-      <TableCaption className="text-white min-h-screen p-4" >Event locations will be updated as they are confirmed. Check the Facebook Group for more information!</TableCaption>
+      <TableCaption className="text-white" >Event locations will be updated as they are confirmed. Check our Facebook Group below for more information!</TableCaption>
       <TableHeader>
         <TableRow>
           <TableHead className="w-[500px] text-white min-h-screen p-4 font-bold text-lg">Match Details</TableHead>
@@ -49,6 +51,11 @@ function App() {
         </TableRow>
       </TableBody>
     </Table>
+    <Avatar>
+      <AvatarImage src="./assets/images/fbLogo.png" />
+      <AvatarFallback>CN</AvatarFallback>
+    </Avatar>
+
 </div>
 
   )
