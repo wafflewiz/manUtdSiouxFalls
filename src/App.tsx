@@ -34,8 +34,8 @@ function App() {
     <div className="flex justify-center my-6">
         <img src={logo} alt="Manchester United Logo" className=" h-16" />
     </div>
-    <h3 className="scroll-m-20 text-2xl font-semibold tracking-tight text-yellow-300 ">
-      <u>Match Table</u>
+    <h3 className="scroll-m-20 text-2xl font-semibold tracking-tight text-yellow-300">
+     <u>Match Table</u>
     </h3>
     <Table>
       <TableCaption className="text-white" >Event locations will be updated as they are confirmed. Check our Facebook Group below for more information!</TableCaption>
@@ -56,6 +56,7 @@ function App() {
       <img src={fbLogo} alt="Facebook Logo" className="mr-2" />
       <p><u>SF Red Army Facebook Group</u></p>
     </a>
+
 
 </div>
 
