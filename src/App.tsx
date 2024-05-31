@@ -1,5 +1,6 @@
 import './App.css'
-import logo from './assets/images/logo.png'; 
+import logo from './assets/images/logo.png';
+import fbLogo from  './assets/images/fbLogo.png';
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 
 import {
@@ -21,7 +22,7 @@ function App() {
       <title>
         MUFC Sioux Falls
       </title>
-    <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl text-yellow-500">
+    <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl text-yellow-300">
       Welcome to the Sioux Falls Red Army Page!
     </h1>
     <div className="flex justify-center my-6">
@@ -33,8 +34,8 @@ function App() {
     <div className="flex justify-center my-6">
         <img src={logo} alt="Manchester United Logo" className=" h-16" />
     </div>
-    <h3 className="scroll-m-20 text-2xl font-semibold tracking-tight">
-      Match Table
+    <h3 className="scroll-m-20 text-2xl font-semibold tracking-tight text-yellow-300 ">
+      <u>Match Table</u>
     </h3>
     <Table>
       <TableCaption className="text-white" >Event locations will be updated as they are confirmed. Check our Facebook Group below for more information!</TableCaption>
@@ -51,10 +52,10 @@ function App() {
         </TableRow>
       </TableBody>
     </Table>
-    <Avatar>
-      <AvatarImage src="./assets/images/fbLogo.png" />
-      <AvatarFallback>CN</AvatarFallback>
-    </Avatar>
+    <a href="https://www.facebook.com/share/xHG5h627BNVtToMW/" target="_blank" rel="noopener noreferrer" className="flex items-center my-6">
+      <img src={fbLogo} alt="Facebook Logo" className="mr-2" />
+      <p><u>SF Red Army Facebook Group</u></p>
+    </a>
 
 </div>
 
