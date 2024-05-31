@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import './App.css'
 import logo from './assets/images/logo.png'; // Adjust the path based on your actual structure
 import {
@@ -13,7 +12,7 @@ import {
 
 
 function App() {
-  const [count, setCount] = useState(0)
+
 
   return (
     <div className="bg-red-500 text-white min-h-screen p-4">
