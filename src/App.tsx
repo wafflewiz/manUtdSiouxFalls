@@ -12,9 +12,13 @@ import {
 
 
 function App() {
-  
+
   return (
+    
     <div className="bg-red-500 text-white min-h-screen p-4">
+      <title>
+        MUFC Sioux Falls
+      </title>
     <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl text-yellow-500">
       Welcome to the Sioux Falls Manchester United Suppoerters Page!
     </h1>
